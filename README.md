@@ -8,12 +8,12 @@ Le travail consiste à réaliser un site de formation destinés à des apprenant
 ### Fonctionnalités
 L’application est composée de deux parties :
 
-    • Partie admunistrateur
-        – Charger les cours sous forme de diapos, vidéo ..
-        – Gérer les utilisateurs (création, modification, suppression)
-        – Gérer les QCM
+    •  Partie admunistrateur
+        –  Charger les cours sous forme de diapos, vidéo ..
+        –  Gérer les utilisateurs (création, modification, suppression)
+        –  Gérer les QCM
         
-    • Partie apprenant : espace personnel, gestion des cours
+    •  Partie apprenant : espace personnel, gestion des cours
         – Construction du profil de l’apprenant : des QCM sont proposés afin définir le niveau
         de l’apprenant afin de lui proposer des cours
         – Recommandation de cours
