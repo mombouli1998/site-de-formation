@@ -1,35 +1,40 @@
-# projet DAW
-### March 4, 2021
-# Projet 2020 : Création de site de formation
-Objet : Le but de ce projet est de réaliser un site de formation.
-### Sujet
-Le travail consiste à réaliser un site de formation destinés à des apprenants / étudiants.
+# 🎓 Projet DAW – Site Web de Formation en Ligne  
+🛠️ PHP, XML, HTML/CSS, JavaScript, Sessions/Cookies (Sans frameworks externes)
 
-### Fonctionnalités
-L’application est composée de deux parties :
+## 📌 Description
+Ce projet a pour objectif de créer une **plateforme de formation en ligne** destinée aux **étudiants et apprenants**.  
+Le site propose des fonctionnalités distinctes selon le type d'utilisateur : **administrateur** ou **apprenant**.
 
-    •  Partie admunistrateur
-        –  Charger les cours sous forme de diapos, vidéo ..
-        –  Gérer les utilisateurs (création, modification, suppression)
-        –  Gérer les QCM
-        
-    •  Partie apprenant : espace personnel, gestion des cours
-        – Construction du profil de l’apprenant : des QCM sont proposés afin définir le niveau
-        de l’apprenant afin de lui proposer des cours
-        – Recommandation de cours
-        – Un forum de discussion entre les apprenants
-### Consignes techniques
-    • Vous devrez utiliser une architecture MVC.
-    • Utilisation des sessions / cookies
-    • Les QCM devront être en XML.
-    • Vous ne devez utiliser que les outils vus en cours.
-    • Il est interdit d’utiliser Bootstrap ou un autre outil analogue. La mise en forme devra
-    être faite par vos propres moyens en css/javascript.
-    • Le site devra comporter 2 thèmes (présentation) différents définis par des feuilles de style
-    CSS.
+## 👨‍💼 Partie Administrateur
+L’espace administrateur permet de :
+- Charger et gérer les **cours** (diapositives, vidéos, etc.)
+- Gérer les **utilisateurs** (création, modification, suppression)
+- Créer, modifier et supprimer des **QCM** au format XML
 
-### Autres
-    • La partie modélisation du site est notée
-    • La partie gestion du projet doit être bien expliquée dans le rapport.
-    • Les soutenances auront lieu la semaine du 10 Mai 2021. Le rapport sera à rendre le Lundi
-10 au plus tard.
+## 🧑‍🎓 Partie Apprenant
+Chaque apprenant dispose d’un **espace personnel** où il peut :
+- Compléter des QCM d’évaluation pour déterminer son **niveau**
+- Recevoir des **recommandations de cours personnalisés**
+- Participer à un **forum de discussion** pour échanger avec d'autres apprenants
+
+## 🧱 Architecture
+Le site est développé selon une **architecture MVC** :
+- **Modèle** : gestion des données et traitement des QCM en XML
+- **Vue** : interface utilisateur construite en HTML/CSS
+- **Contrôleur** : logique métier et routage avec PHP/JavaScript
+
+## 🔒 Gestion des Sessions
+- Authentification via **sessions PHP**
+- Utilisation des **cookies** pour les préférences d’affichage ou de thème
+
+## 🎨 Design & Thèmes
+- Interface graphique développée **sans frameworks externes**
+- **Deux thèmes CSS** disponibles, sélectionnables par l'utilisateur
+
+## 🧪 Contraintes Techniques
+- Les QCM doivent être gérés en **format XML**
+- Utilisation **exclusive** des outils et langages vus en cours
+- **Interdiction d’utiliser Bootstrap ou autres bibliothèques de mise en forme**
+
+
+🎯 **Objectif pédagogique** : Mettre en pratique l’ensemble des compétences acquises en développement web dans un projet concret avec contraintes réalistes.
